@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/radheshyamc/lib/hadoop_libs/hadoop/common/hadoop-common-2.7.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/home/radheshyamc/data_sciece/hadoop-2.7.2/share/doc/hadoop/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/radheshyamc/lib/hadoop_libs/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/home/radheshyamc/data_sciece/hadoop-2.7.2/share/doc/hadoop/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
